@@ -1,0 +1,105 @@
+2023-07-12 12:33:41.450 [trace] [File Watcher (node.js)] Request to start watching: /Users/Einpunk Community/Documents/Brownie/Library/Application Support/Code/User (excludes: <none>, includes: <all>),/Users/Einpunk Community/Documents/Brownie/Library/Application Support/Code/User/settings.json (excludes: <none>, includes: <all>)
+2023-07-12 12:33:41.450 [debug] Starting VS Code
+2023-07-12 12:33:41.450 [debug] from: /Applications/Visual Studio Code.app/Contents/Resources/app
+2023-07-12 12:33:41.450 [debug] args: {"_":[],"diff":false,"merge":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"help":false,"list-extensions":false,"show-versions":false,"pre-release":false,"version":false,"verbose":true,"status":false,"prof-startup":false,"no-cached-data":false,"prof-v8-extensions":false,"disable-extensions":false,"disable-gpu":false,"disable-chromium-sandbox":false,"ms-enable-electron-run-as-node":false,"telemetry":false,"debugRenderer":false,"enable-smoke-test-driver":false,"logExtensionHostCommunication":false,"skip-release-notes":false,"skip-welcome":false,"disable-telemetry":false,"disable-updates":false,"disable-keytar":false,"disable-workspace-trust":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"unity-launch":false,"open-url":false,"file-write":false,"file-chmod":false,"force":false,"do-not-sync":false,"trace":false,"force-user-env":false,"force-disable-user-env":false,"open-devtools":false,"disable-gpu-sandbox":false,"__enable-file-policy":false,"enable-coi":false,"no-proxy-server":false,"no-sandbox":false,"nolazy":false,"force-renderer-accessibility":false,"ignore-certificate-errors":false,"allow-insecure-localhost":false,"vmodule":"*/components/os_crypt/*=1","disable-dev-shm-usage":false,"profile-temp":false,"logsPath":"/Users/Einpunk Community/Documents/Brownie/Library/Application Support/Code/logs/20230712T123340"}
+2023-07-12 12:33:41.450 [trace] Resolving machine identifier...
+2023-07-12 12:33:41.450 [trace] Resolved machine identifier: c4a13bc042ba1d7e7e00d5410d84f5860594233deb30403c6f0e3c8f9795c2da
+2023-07-12 12:33:41.450 [trace] Main->SharedProcess#connect
+2023-07-12 12:33:41.450 [trace] StorageMainService: creating application storage
+2023-07-12 12:33:41.450 [trace] ElectronURLListener: waiting for window to be ready to handle URLs...
+2023-07-12 12:33:41.450 [trace] lifecycle (main): phase changed (value: 2)
+2023-07-12 12:33:41.450 [trace] windowsManager#open
+2023-07-12 12:33:41.450 [trace] windowsManager#open pathsToOpen [{}]
+2023-07-12 12:33:41.450 [trace] windowsManager#doOpenEmpty {"restore":false,"forceNewWindow":false}
+2023-07-12 12:33:41.450 [trace] IPC Object URL: Registered new channel vscode:2fcc3d0c-787a-4007-81d2-5b75881fa25b.
+2023-07-12 12:33:41.450 [trace] window#validateWindowState: validating window state on 1 display(s) {"width":1024,"height":768,"mode":1,"x":208,"y":66,"hasDefaultState":true}
+2023-07-12 12:33:41.450 [trace] window#validateWindowState: 1 monitor working area {"x":0,"y":25,"width":1440,"height":816}
+2023-07-12 12:33:41.450 [trace] window#ctor: using window state {"width":1024,"height":768,"mode":1,"x":208,"y":66,"hasDefaultState":true}
+2023-07-12 12:33:41.450 [trace] window#load: attempt to load window (id: 1)
+2023-07-12 12:33:41.450 [trace] windowsManager#open used window count 1 (workspacesToOpen: 0, foldersToOpen: 0, emptyToRestore: 0, emptyToOpen: 1)
+2023-07-12 12:33:41.450 [trace] lifecycle (main): phase changed (value: 3)
+2023-07-12 12:33:41.450 [trace] resolveShellEnv(): skipped (VSCODE_CLI is set)
+2023-07-12 12:33:41.450 [info] update#setState idle
+2023-07-12 12:33:41.511 [trace] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/Users/Einpunk Community/Documents/Brownie/Library/Application Support/Code/User/settings.json'
+2023-07-12 12:33:41.551 [trace] resolveShellEnv(): skipped (VSCODE_CLI is set)
+2023-07-12 12:33:41.717 [trace] [File Watcher (node.js)] Started watching: '/Users/Einpunk Community/Documents/Brownie/Library/Application Support/Code/User'
+2023-07-12 12:33:42.515 [trace] StorageMainService: creating workspace storage (1689190421234)
+2023-07-12 12:33:42.703 [trace] Going to get password from keytar: vscode.login account
+2023-07-12 12:33:42.761 [trace] window#load: window reported ready (id: 1)
+2023-07-12 12:33:42.761 [trace] ElectronURLListener#flush(): flushing URLs
+2023-07-12 12:33:42.764 [trace] [UtilityProcess type: ptyHost, pid: <none>]: creating new...
+2023-07-12 12:33:42.768 [trace] [SharedProcess] on vscode:createSharedProcessMessageChannel
+2023-07-12 12:33:42.769 [trace] [UtilityProcess type: shared-process, pid: <none>]: creating new...
+2023-07-12 12:33:42.770 [trace] [UtilityProcessWorker]: createWorker(window: 1, moduleId: vs/platform/files/node/watcher/watcherMain)
+2023-07-12 12:33:42.770 [trace] [UtilityProcess id: 1, type: fileWatcher, pid: <none>]: creating new...
+2023-07-12 12:33:42.772 [trace] Doing get password from keytar: vscode.login account
+2023-07-12 12:33:42.773 [trace] [UtilityProcess type: ptyHost, pid: 13998]: successfully created
+2023-07-12 12:33:42.774 [trace] [UtilityProcess type: shared-process, pid: 13999]: successfully created
+2023-07-12 12:33:42.774 [trace] Did not get a password from keytar for account: account
+2023-07-12 12:33:42.777 [trace] [UtilityProcess id: 1, type: fileWatcher, pid: 14000]: successfully created
+2023-07-12 12:33:42.791 [trace] menubarService#updateMenubar 1
+2023-07-12 12:33:42.846 [trace] [UtilityProcess id: 1, type: extensionHost, pid: <none>]: creating new...
+2023-07-12 12:33:42.853 [trace] [UtilityProcess id: 1, type: extensionHost, pid: 14001]: successfully created
+2023-07-12 12:33:42.881 [trace] lifecycle (main): phase changed (value: 4)
+2023-07-12 12:33:43.885 [trace] menubarService#updateMenubar 1
+2023-07-12 12:33:43.892 [trace] resolveShellEnv(): skipped (VSCODE_CLI is set)
+2023-07-12 12:33:43.900 [trace] [SharedProcess] IPC ready
+2023-07-12 12:33:43.901 [trace] Main->SharedProcess#connect: connection established
+2023-07-12 12:33:43.915 [trace] menubarService#updateMenubar 1
+2023-07-12 12:33:43.943 [trace] [File Watcher (node.js)] Request to start watching: /Users/Einpunk Community/Documents/Brownie/Library/Application Support/Code/User (excludes: <none>, includes: <all>),/Users/Einpunk Community/Documents/Brownie/Library/Application Support/Code/User/settings.json (excludes: <none>, includes: <all>)
+2023-07-12 12:33:44.055 [trace] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/Users/Einpunk Community/Documents/Brownie/Library/Application Support/Code/User/settings.json'
+2023-07-12 12:33:44.070 [trace] [SharedProcess] Overall ready
+2023-07-12 12:33:44.081 [trace] resolveShellEnv(): skipped (VSCODE_CLI is set)
+2023-07-12 12:33:44.095 [trace] [File Watcher (node.js)] Started watching: '/Users/Einpunk Community/Documents/Brownie/Library/Application Support/Code/User'
+2023-07-12 12:33:44.226 [trace] [File Watcher (node.js)] [raw] ["rename"] snippets
+2023-07-12 12:33:44.243 [trace] [File Watcher (node.js)] [raw] ["rename"] snippets
+2023-07-12 12:33:44.330 [trace] menubarService#updateMenubar 1
+2023-07-12 12:33:44.350 [trace] [File Watcher (node.js)] [ADDED] /Users/Einpunk Community/Documents/Brownie/Library/Application Support/Code/User/snippets
+2023-07-12 12:33:44.422 [trace] [File Watcher (node.js)] [ADDED] /Users/Einpunk Community/Documents/Brownie/Library/Application Support/Code/User/snippets
+2023-07-12 12:33:44.444 [trace] [File Watcher (node.js)] >> normalized [ADDED] /Users/Einpunk Community/Documents/Brownie/Library/Application Support/Code/User/snippets
+2023-07-12 12:33:44.516 [trace] [File Watcher (node.js)] Request to start watching: /Users/Einpunk Community/Documents/Brownie/.vscode/extensions (excludes: <none>, includes: <all>),/Users/Einpunk Community/Documents/Brownie/.vscode/extensions/extensions.json (excludes: <none>, includes: <all>)
+2023-07-12 12:33:44.516 [trace] [File Watcher (node.js)] >> normalized [ADDED] /Users/Einpunk Community/Documents/Brownie/Library/Application Support/Code/User/snippets
+2023-07-12 12:33:44.534 [trace] [File Watcher (node.js)] Started watching: '/Users/Einpunk Community/Documents/Brownie/.vscode/extensions'
+2023-07-12 12:33:44.535 [trace] [File Watcher (node.js)] Started watching: '/Users/Einpunk Community/Documents/Brownie/.vscode/extensions/extensions.json'
+2023-07-12 12:33:44.986 [trace] resolveShellEnv(): skipped (VSCODE_CLI is set)
+2023-07-12 12:33:44.989 [trace] Going to get password from keytar: vscode.login account
+2023-07-12 12:33:44.989 [trace] Doing get password from keytar: vscode.login account
+2023-07-12 12:33:44.989 [trace] Did not get a password from keytar for account: account
+2023-07-12 12:33:52.346 [trace] menubarService#updateMenubar 1
+2023-07-12 12:33:52.435 [trace] Going to get password from keytar: vscodevscode.github-authentication github.auth
+2023-07-12 12:33:52.436 [trace] Doing get password from keytar: vscodevscode.github-authentication github.auth
+2023-07-12 12:33:52.499 [trace] Did not get a password from keytar for account: github.auth
+2023-07-12 12:33:52.623 [trace] Going to get password from keytar: vscodevscode.microsoft-authentication microsoft.login.keylist
+2023-07-12 12:33:52.623 [trace] Doing get password from keytar: vscodevscode.microsoft-authentication microsoft.login.keylist
+2023-07-12 12:33:52.625 [trace] Did not get a password from keytar for account: microsoft.login.keylist
+2023-07-12 12:33:52.932 [trace] menubarService#updateMenubar 1
+2023-07-12 12:33:54.229 [trace] [File Watcher (node.js)] [raw] ["rename"] settings.json
+2023-07-12 12:33:54.247 [trace] [File Watcher (node.js)] [raw] ["rename"] settings.json
+2023-07-12 12:33:54.281 [trace] [File Watcher (node.js)] [raw] ["rename"] settings.json
+2023-07-12 12:33:54.281 [trace] [File Watcher (node.js)] [raw] ["rename"] settings.json
+2023-07-12 12:33:54.336 [trace] [File Watcher (node.js)] [raw] ["rename"] settings.json
+2023-07-12 12:33:54.356 [trace] [File Watcher (node.js)] [raw] ["rename"] settings.json
+2023-07-12 12:33:54.389 [trace] [File Watcher (node.js)] [raw] ["rename"] settings.json
+2023-07-12 12:33:54.389 [trace] [File Watcher (node.js)] [raw] ["rename"] settings.json
+2023-07-12 12:33:54.494 [trace] [File Watcher (node.js)] [ADDED] /Users/Einpunk Community/Documents/Brownie/Library/Application Support/Code/User/settings.json
+2023-07-12 12:33:54.509 [trace] [File Watcher (node.js)] [ADDED] /Users/Einpunk Community/Documents/Brownie/Library/Application Support/Code/User/settings.json
+2023-07-12 12:33:54.583 [trace] [File Watcher (node.js)] >> normalized [ADDED] /Users/Einpunk Community/Documents/Brownie/Library/Application Support/Code/User/settings.json
+2023-07-12 12:33:54.584 [trace] [File Watcher (node.js)] >> normalized [ADDED] /Users/Einpunk Community/Documents/Brownie/Library/Application Support/Code/User/settings.json
+2023-07-12 12:33:54.658 [trace] menubarService#updateMenubar 1
+2023-07-12 12:33:58.186 [trace] menubarService#updateMenubar 1
+2023-07-12 12:34:10.383 [trace] update#checkForUpdates, state =  idle
+2023-07-12 12:34:10.384 [info] update#setState checking for updates
+2023-07-12 12:34:11.563 [error] UpdateService error: The certificate for this server is invalid. You might be connecting to a server that is pretending to be “update.code.visualstudio.com”, which could put your confidential information at risk. Would you like to connect to the server anyway?
+2023-07-12 12:34:11.563 [info] update#setState idle
+2023-07-12 12:38:52.719 [trace] resolveShellEnv(): skipped (VSCODE_CLI is set)
+2023-07-12 12:40:35.595 [trace] menubarService#updateMenubar 1
+2023-07-12 12:43:52.733 [trace] resolveShellEnv(): skipped (VSCODE_CLI is set)
+2023-07-12 12:48:52.814 [trace] resolveShellEnv(): skipped (VSCODE_CLI is set)
+2023-07-12 12:53:52.926 [trace] resolveShellEnv(): skipped (VSCODE_CLI is set)
+2023-07-12 12:58:52.997 [trace] resolveShellEnv(): skipped (VSCODE_CLI is set)
+2023-07-12 13:03:40.505 [trace] app#activate
+2023-07-12 13:03:41.071 [trace] menubarService#updateMenubar 1
+2023-07-12 13:03:49.986 [trace] menubarService#updateMenubar 1
+2023-07-12 13:03:53.061 [trace] resolveShellEnv(): skipped (VSCODE_CLI is set)
+2023-07-12 13:08:53.113 [trace] resolveShellEnv(): skipped (VSCODE_CLI is set)
+2023-07-12 13:13:53.333 [trace] resolveShellEnv(): skipped (VSCODE_CLI is set)

@@ -1,0 +1,7 @@
+2023-07-12 12:33:45.669 [info] Log level: Trace
+2023-07-12 12:33:45.680 [info] Validating found git in: "/usr/bin/git"
+2023-07-12 12:33:45.736 [info] Using git "2.39.2 (Apple Git-143)" from "/usr/bin/git"
+2023-07-12 12:33:45.736 [trace] [swf] Scan workspace folders: []
+2023-07-12 12:33:45.736 [trace] [svte] Scan visible text editors. autoRepositoryDetection=true
+2023-07-12 12:33:45.736 [trace] [swsf] Scan workspace sub folders. autoRepositoryDetection=true
+2023-07-12 12:33:54.557 [trace] [swf] Scan workspace folders: []

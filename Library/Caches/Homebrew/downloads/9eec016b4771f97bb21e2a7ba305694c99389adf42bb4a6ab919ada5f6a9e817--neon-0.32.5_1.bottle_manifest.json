@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:003e40a442d76ecaf2fc9214d9ddd1fd6839d596d2166f1db4b57dfe181bbdc9",
+      "size": 2159,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 11.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.32.5_1.big_sur",
+        "sh.brew.bottle.digest": "08657cfdbcd1a1fb1d1cfc1d2a51ae85071a5456f99bc2e57f238cf86565670f",
+        "sh.brew.bottle.size": "194780",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.0.24-13-ga626253\",\"changed_files\":[\"bin/neon-config\",\"NEWS\",\"lib/pkgconfig/neon.pc\"],\"source_modified_time\":1674303038,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2023-05-30\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.1.1\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 11.7\",\"cpu_family\":\"penryn\",\"xcode\":\"13.2.1\",\"clt\":\"13.2.0.0.1.1638488800\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:bc63f0792f04af79a661c979d1e6112eec9077a9b21f121a630b943a23fe3adb",
+      "size": 2167,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 12.6"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.32.5_1.arm64_monterey",
+        "sh.brew.bottle.digest": "8553df4ae9d74929e324042df5438a1b147f7690e22f9a4e81d7b2f436c3c546",
+        "sh.brew.bottle.size": "192601",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.0.24-13-ga626253\",\"changed_files\":[\"bin/neon-config\",\"lib/pkgconfig/neon.pc\"],\"source_modified_time\":1674303038,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2023-05-30\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.1.1\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 12.6\",\"cpu_family\":\"dunno\",\"xcode\":\"14.2\",\"clt\":\"14.2.0.0.1.1668646533\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:29e76364f3885bdb6b846c76c8ff169c292444912cbb6c359bbf21a23fbc9604",
+      "size": 2617,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "5.15.0-1039-azure"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.32.5_1.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "bd85b0bd8ae4c89bf4b4d34ca44166992cbb650e20b22622a574f6cf7ce38943",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "216843",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.0.24-13-ga626253\",\"changed_files\":[\"bin/neon-config\",\"lib/pkgconfig/neon.pc\"],\"source_modified_time\":1674303038,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2023-05-30\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.1.1\",\"declared_directly\":true},{\"full_name\":\"icu4c\",\"version\":\"73.2\",\"declared_directly\":false},{\"full_name\":\"ncurses\",\"version\":\"6.4\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.2.1\",\"declared_directly\":false},{\"full_name\":\"zlib\",\"version\":\"1.2.13\",\"declared_directly\":false},{\"full_name\":\"libxml2\",\"version\":\"2.11.4\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"5.15.0-1039-azure\",\"cpu_family\":\"skylake\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:ef42ecaeb47890165840c9c026fd980f4019e6f2bd9456090942b0f12448a37d",
+      "size": 2164,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 13.3"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.32.5_1.arm64_ventura",
+        "sh.brew.bottle.digest": "067c2328e9be5322fd20c7d42737feaca1a5709bbfcededb555581d7dde1c244",
+        "sh.brew.bottle.size": "192665",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.0.24-13-ga626253\",\"changed_files\":[\"bin/neon-config\",\"lib/pkgconfig/neon.pc\"],\"source_modified_time\":1674303038,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2023-05-30\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.1.1\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.3\",\"cpu_family\":\"dunno\",\"xcode\":\"14.3\",\"clt\":\"14.3.0.0.1.1679647830\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:f7e9827fcda88dbc2c0b66394dcb84c07968f1ef1a2e386cd24d497d6ad26993",
+      "size": 2157,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 13.3"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.32.5_1.ventura",
+        "sh.brew.bottle.digest": "7c678c5230ee94f52200648cde8cdb076120df15ab48a2c02d1a7d1445f3e0b9",
+        "sh.brew.bottle.size": "193113",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.0.24-13-ga626253\",\"changed_files\":[\"bin/neon-config\",\"NEWS\",\"lib/pkgconfig/neon.pc\"],\"source_modified_time\":1674303038,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2023-05-30\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.1.1\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.3\",\"cpu_family\":\"penryn\",\"xcode\":\"14.3\",\"clt\":\"14.3.0.0.1.1679647830\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:de4ba27fb5bea02d955edcd8441a2607bd7111e50b4576a4f2c2ca71834b0339",
+      "size": 2183,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 11.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.32.5_1.arm64_big_sur",
+        "sh.brew.bottle.digest": "a3f8ec3228b44953f7ef33ea81ecdb5f8d2e69584e4cd3979af449f3afa178f4",
+        "sh.brew.bottle.size": "194532",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.0.24-13-ga626253\",\"changed_files\":[\"bin/neon-config\",\"lib/pkgconfig/neon.pc\"],\"source_modified_time\":1674303038,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2023-05-30\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.1.1\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 11.7\",\"cpu_family\":\"arm_firestorm_icestorm\",\"xcode\":\"13.2.1\",\"clt\":\"13.2.0.0.1.1638488800\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:6486e73d26f77b0e1f94e565af50ce90ffe28918a5e0cb34b36b048a37dfdf1c",
+      "size": 2160,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 12.6"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.32.5_1.monterey",
+        "sh.brew.bottle.digest": "fe2ed998931a1293944b258e9330aa5497ddccdeb8c08321937bfc1e32fdc4dc",
+        "sh.brew.bottle.size": "192946",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.0.24-13-ga626253\",\"changed_files\":[\"bin/neon-config\",\"NEWS\",\"lib/pkgconfig/neon.pc\"],\"source_modified_time\":1674303038,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2023-05-30\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.1.1\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 12.6\",\"cpu_family\":\"penryn\",\"xcode\":\"14.2\",\"clt\":\"14.2.0.0.1.1668646533\",\"preferred_perl\":\"5.30\"}}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2023-06-20",
+    "org.opencontainers.image.description": "HTTP and WebDAV client library with a C interface",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/neon",
+    "org.opencontainers.image.license": "LGPL-2.0-or-later",
+    "org.opencontainers.image.ref.name": "0.32.5_1",
+    "org.opencontainers.image.revision": "ac65a02e45de12450091118784b1f1eb7aabab50",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/ac65a02e45de12450091118784b1f1eb7aabab50/Formula/neon.rb",
+    "org.opencontainers.image.title": "neon",
+    "org.opencontainers.image.url": "https://notroj.github.io/neon/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "0.32.5_1"
+  }
+}

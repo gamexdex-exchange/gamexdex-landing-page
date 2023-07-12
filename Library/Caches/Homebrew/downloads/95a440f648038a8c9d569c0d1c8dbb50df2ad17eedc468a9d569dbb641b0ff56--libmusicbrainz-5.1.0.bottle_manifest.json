@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:f000e1dde2c995e19dc6df6ae12e2d18ae7ac932bcfefdd0c67e074741a6836b",
+      "size": 1639,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 10.11"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.1.0.el_capitan",
+        "sh.brew.bottle.digest": "6a63410ca9eae84b263d7165d05701801f4e05de26a9e95a7396f95a602cedd7",
+        "sh.brew.tab": "{\"homebrew_version\":null,\"changed_files\":null,\"source_modified_time\":1415884344,\"stdlib\":\"libcxx\",\"compiler\":\"clang\",\"runtime_dependencies\":null,\"arch\":null,\"built_on\":null}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:a9c4019f5cce620c992f7f99c03812843d1b744b07997fda28d0ae0958da5b6d",
+      "size": 1814,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 10.13"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.1.0.high_sierra",
+        "sh.brew.bottle.digest": "99b598b941ac0ce3747d8821943a1e730f3673b721421d9c0428b70259e789c0",
+        "sh.brew.tab": "{\"homebrew_version\":\"1.3.2-80-g81d9f71\",\"changed_files\":[\"INSTALL_RECEIPT.json\",\"lib/pkgconfig/libmusicbrainz5.pc\"],\"source_modified_time\":1415884344,\"stdlib\":\"libcxx\",\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"openssl\",\"version\":\"1.0.2l\"},{\"full_name\":\"neon\",\"version\":\"0.30.2\"}],\"arch\":null,\"built_on\":null}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:dc854824a8aaf0b5f2cea25aa224305969a54bd245c2ab5323a9b624f61a5467",
+      "size": 1810,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 10.15"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.1.0.catalina",
+        "sh.brew.bottle.digest": "3ff30e82e933e84fdaacc2a0d8c568678adfabb0b7771667cbcaf07132f59a14",
+        "sh.brew.tab": "{\"homebrew_version\":\"2.1.14-23-g8fa65aa\",\"changed_files\":[\"INSTALL_RECEIPT.json\",\"lib/pkgconfig/libmusicbrainz5.pc\"],\"source_modified_time\":1415884344,\"stdlib\":\"libcxx\",\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"openssl@1.1\",\"version\":\"1.1.1d\"},{\"full_name\":\"neon\",\"version\":\"0.30.2\"}],\"arch\":null,\"built_on\":null}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:3fb79b28d36b1fb06d61f966a653b43381743ae860ac6179b6f3f2ae2dafcfb8",
+      "size": 1798,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 10.14"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.1.0.mojave",
+        "sh.brew.bottle.digest": "420d6867aa3d20d9148d4546a154e7059467cc4ca8d861dfb173c9ea35f10dab",
+        "sh.brew.tab": "{\"homebrew_version\":\"1.7.2-6-g1c7c876\",\"changed_files\":[\"INSTALL_RECEIPT.json\",\"lib/pkgconfig/libmusicbrainz5.pc\"],\"source_modified_time\":1415884344,\"stdlib\":\"libcxx\",\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"openssl\",\"version\":\"1.0.2p\"},{\"full_name\":\"neon\",\"version\":\"0.30.2\"}],\"arch\":null,\"built_on\":null}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:ce8128c99660eef640029ceed98f2fbce761525858ae2ad5d0eb9fafbb61c709",
+      "size": 1917,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 11.0.1"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.1.0.big_sur",
+        "sh.brew.bottle.digest": "a03a79657821636633079121735346d0b50ac66ab13e7a0da695b4f8e8499464",
+        "sh.brew.tab": "{\"homebrew_version\":\"2.5.10-43-g79c14e6\",\"changed_files\":[\"lib/pkgconfig/libmusicbrainz5.pc\"],\"source_modified_time\":1415884344,\"stdlib\":\"libcxx\",\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"openssl@1.1\",\"version\":\"1.1.1h\"},{\"full_name\":\"neon\",\"version\":\"0.31.2\"}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 11.0.1\",\"cpu_family\":\"penryn\",\"xcode\":\"12.2\",\"clt\":\"12.2.0.0.1.1604076827\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:064c14960061b23ebafeac8baef1c4ee3bb0220482448390d691b4564fe048e8",
+      "size": 1943,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 11.1"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.1.0.arm64_big_sur",
+        "sh.brew.bottle.digest": "cd8eb4a4a2aaf1d9328c3b84439f16996b5e586d1069edcb28d4dcf8c994a30e",
+        "sh.brew.tab": "{\"homebrew_version\":\"2.7.0-41-ge041468\",\"changed_files\":[\"lib/pkgconfig/libmusicbrainz5.pc\"],\"source_modified_time\":1415884344,\"stdlib\":\"libcxx\",\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"openssl@1.1\",\"version\":\"1.1.1i\"},{\"full_name\":\"neon\",\"version\":\"0.31.2\"}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 11.1\",\"cpu_family\":\"arm_vortex_tempest\",\"xcode\":\"12.3\",\"clt\":\"12.3.0.0.1.1607026830\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:2465784aa71539280cb85157fa1234d545df0090e6690351d5a65ab0b1305fb2",
+      "size": 1627,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 10.12"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.1.0.sierra",
+        "sh.brew.bottle.digest": "8fe055e1f987e23a569f915082031e172a5c3d0aef6f86de78ce9c8258f53cd2",
+        "sh.brew.tab": "{\"homebrew_version\":null,\"changed_files\":null,\"source_modified_time\":1415884344,\"stdlib\":\"libcxx\",\"compiler\":\"clang\",\"runtime_dependencies\":null,\"arch\":null,\"built_on\":null}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:9badc40425ceae193563a48335f41e9bad8d580469db4a79b5d49fc95015624a",
+      "size": 1624,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 10.10"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.1.0.yosemite",
+        "sh.brew.bottle.digest": "0851c7889df9dc2971b60fe9fd8ad891afd8d5dae08877393e2f69e3cc33f589",
+        "sh.brew.tab": "{\"homebrew_version\":null,\"changed_files\":null,\"source_modified_time\":0,\"stdlib\":\"libcxx\",\"compiler\":\"clang\",\"runtime_dependencies\":null,\"arch\":null,\"built_on\":null}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:a5f69d7ea6d667c215ad956f0235c81ad1a29e4ad707a2191cf919e3e3f1c953",
+      "size": 2072,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 12.2"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.1.0.monterey",
+        "sh.brew.bottle.digest": "26b5aa846f4cd2cef477fa4e60b3f735b18eed3451528f2517a8de9ab38d0be1",
+        "sh.brew.tab": "{\"homebrew_version\":\"3.4.2-14-g6420c8f\",\"changed_files\":[\"lib/pkgconfig/libmusicbrainz5.pc\"],\"source_modified_time\":1415884344,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2022-03-18\",\"declared_directly\":false},{\"full_name\":\"openssl@1.1\",\"version\":\"1.1.1m\",\"declared_directly\":false},{\"full_name\":\"neon\",\"version\":\"0.32.2\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 12.2\",\"cpu_family\":\"penryn\",\"xcode\":\"13.2.1\",\"clt\":\"13.2.0.0.1.1638488800\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:3adab5310585121d7aacf6cfa2f496b5a8ed1039b64a81d90b1c406117a6a9f6",
+      "size": 2103,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 12"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.1.0.arm64_monterey",
+        "sh.brew.bottle.digest": "fc0659a30defd25b9d1eb98acee0c6165d3a25c013a7a5bd4d77247af9096ddc",
+        "sh.brew.tab": "{\"homebrew_version\":\"3.4.2-14-g6420c8f\",\"changed_files\":[\"lib/pkgconfig/libmusicbrainz5.pc\"],\"source_modified_time\":1415884344,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2022-03-18\",\"declared_directly\":false},{\"full_name\":\"openssl@1.1\",\"version\":\"1.1.1m\",\"declared_directly\":false},{\"full_name\":\"neon\",\"version\":\"0.32.2\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 12\",\"cpu_family\":\"arm_firestorm_icestorm\",\"xcode\":\"13.2.1\",\"clt\":\"13.2.0.0.1.1638488800\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:cad4380e04c9b40873aa1914e9e6443cce26e76d6837679da2db69c4e3906c23",
+      "size": 2563,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 16.04.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.1.0.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "e9a39724adbf24eb1dd5b25478d8b571be9f8fdc42d6249696e0934e07a1e4c9",
+        "sh.brew.bottle.glibc.version": "2.23",
+        "sh.brew.tab": "{\"homebrew_version\":\"3.4.2-17-g9170142\",\"changed_files\":[\"lib/pkgconfig/libmusicbrainz5.pc\"],\"source_modified_time\":1415884344,\"stdlib\":\"libstdcxx\",\"compiler\":\"gcc-5\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2022-03-18\",\"declared_directly\":false},{\"full_name\":\"openssl@1.1\",\"version\":\"1.1.1m\",\"declared_directly\":false},{\"full_name\":\"ncurses\",\"version\":\"6.3\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.1.2\",\"declared_directly\":false},{\"full_name\":\"zlib\",\"version\":\"1.2.11\",\"declared_directly\":false},{\"full_name\":\"libxml2\",\"version\":\"2.9.13\",\"declared_directly\":true},{\"full_name\":\"neon\",\"version\":\"0.32.2\",\"declared_directly\":true},{\"full_name\":\"pkg-config\",\"version\":\"0.29.2\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 16.04.7\",\"cpu_family\":\"skylake\",\"glibc_version\":\"2.23\",\"oldest_cpu_family\":\"core2\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:7b51b8a11858fbd506b873a99f6e0a73311e64d4e9940c8f1156c2e4dc5d1853",
+      "size": 2081,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 13"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.1.0.arm64_ventura",
+        "sh.brew.bottle.digest": "f94dae2c20f0394e6500176d823845716fd3696e692527e8106542e7d3a7f392",
+        "sh.brew.tab": "{\"homebrew_version\":\"3.6.7-28-g560f571\",\"changed_files\":[\"lib/pkgconfig/libmusicbrainz5.pc\"],\"source_modified_time\":1415884344,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2022-10-11\",\"declared_directly\":false},{\"full_name\":\"openssl@1.1\",\"version\":\"1.1.1q\",\"declared_directly\":false},{\"full_name\":\"neon\",\"version\":\"0.32.4\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13\",\"cpu_family\":\"dunno\",\"xcode\":\"14.1\",\"clt\":\"14.1.0.0.1.1665256668\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:75d7e91e78a827878bf8ac7d04b89b9c8667f02b8098312896ceec5082b5cac6",
+      "size": 2068,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 13.0"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "5.1.0.ventura",
+        "sh.brew.bottle.digest": "4d83f20fe8412445dfe08de416eb711164ea7a1b5495511ce5979d0d2a40c9f7",
+        "sh.brew.tab": "{\"homebrew_version\":\"3.6.12-20-g9c88c39\",\"changed_files\":[\"lib/pkgconfig/libmusicbrainz5.pc\"],\"source_modified_time\":1415884344,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"ca-certificates\",\"version\":\"2022-10-11\",\"declared_directly\":false},{\"full_name\":\"openssl@1.1\",\"version\":\"1.1.1s\",\"declared_directly\":false},{\"full_name\":\"neon\",\"version\":\"0.32.4\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.0\",\"cpu_family\":\"penryn\",\"xcode\":\"14.1\",\"clt\":\"14.1.0.0.1.1666437224\",\"preferred_perl\":\"5.30\"}}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2021-04-06",
+    "org.opencontainers.image.description": "MusicBrainz Client Library",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/libmusicbrainz",
+    "org.opencontainers.image.license": "LGPL-2.1",
+    "org.opencontainers.image.ref.name": "5.1.0",
+    "org.opencontainers.image.source": "https://github.com/Homebrew/homebrew-core/blob/HEAD/Formula/libmusicbrainz.rb",
+    "org.opencontainers.image.title": "libmusicbrainz",
+    "org.opencontainers.image.url": "https://musicbrainz.org/doc/libmusicbrainz",
+    "org.opencontainers.image.vendor": "Homebrew",
+    "org.opencontainers.image.version": "5.1.0"
+  }
+}

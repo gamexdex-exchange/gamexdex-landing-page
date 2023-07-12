@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:d83d1dc12df7330aaf0a28c4e39cbf68c47cc1bac521cbe8bc70c00510026bec",
+      "size": 2169,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 12.6"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.4.3.arm64_monterey",
+        "sh.brew.bottle.digest": "187cfc571ab437b847cb2da754706a271be30727637cde5b60fa982568ebcf91",
+        "sh.brew.bottle.size": "1170872",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.0.24-34-g66c6e5b\",\"changed_files\":[\"lib/pkgconfig/flac++.pc\",\"lib/pkgconfig/flac.pc\"],\"source_modified_time\":1687423868,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libogg\",\"version\":\"1.3.5\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 12.6\",\"cpu_family\":\"dunno\",\"xcode\":\"14.2\",\"clt\":\"14.2.0.0.1.1668646533\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:4558a11056feb19bed7dc9f2b2e8ab89f3fd6a623970c2cbdc644f79d708e240",
+      "size": 2150,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 13.3"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.4.3.ventura",
+        "sh.brew.bottle.digest": "643038462da4e717c7d7dc5c3925e1544db2d0448f816954281fba3cb7ee9c24",
+        "sh.brew.bottle.size": "1205330",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.0.24-34-g66c6e5b\",\"changed_files\":[\"lib/pkgconfig/flac++.pc\",\"lib/pkgconfig/flac.pc\"],\"source_modified_time\":1687423868,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libogg\",\"version\":\"1.3.5\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.3\",\"cpu_family\":\"penryn\",\"xcode\":\"14.3\",\"clt\":\"14.3.0.0.1.1679647830\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:eca8902b1e75284db1c1b19a71533545ddc3032f2ae04f8ddca5ba21f18cb406",
+      "size": 2260,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "5.15.0-1040-azure"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.4.3.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "45cbf41355347a7d84d726195785238b5fff48155bdfa95db12eeb401e18e19f",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "1470089",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.0.24-34-g66c6e5b\",\"changed_files\":[\"lib/pkgconfig/flac++.pc\",\"lib/pkgconfig/flac.pc\"],\"source_modified_time\":1687423868,\"stdlib\":\"libstdcxx\",\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"libogg\",\"version\":\"1.3.5\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"5.15.0-1040-azure\",\"cpu_family\":\"icelake\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:8b2ea6a36b6cee597402d485f462d9777b27c5476599f8de2ad5148346ba3d37",
+      "size": 2166,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 13.3"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.4.3.arm64_ventura",
+        "sh.brew.bottle.digest": "3962fce4abb2716cd21a9b9ebeda4f2e5c4bea08c32ea3cc0316f369da054019",
+        "sh.brew.bottle.size": "1171536",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.0.24-34-g66c6e5b\",\"changed_files\":[\"lib/pkgconfig/flac++.pc\",\"lib/pkgconfig/flac.pc\"],\"source_modified_time\":1687423868,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libogg\",\"version\":\"1.3.5\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.3\",\"cpu_family\":\"dunno\",\"xcode\":\"14.3\",\"clt\":\"14.3.0.0.1.1679647830\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:ee9543e07aa5e9ff0b6165433cb2781875dd6a015e5d1ec7a2e8af6dc069ae98",
+      "size": 2153,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 12.6"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.4.3.monterey",
+        "sh.brew.bottle.digest": "6d3f6605110bddf5f11eb290622b1043f1309229bf49d0cb66e485f73e9c1074",
+        "sh.brew.bottle.size": "1205197",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.0.24-34-g66c6e5b\",\"changed_files\":[\"lib/pkgconfig/flac++.pc\",\"lib/pkgconfig/flac.pc\"],\"source_modified_time\":1687423868,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libogg\",\"version\":\"1.3.5\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 12.6\",\"cpu_family\":\"penryn\",\"xcode\":\"14.2\",\"clt\":\"14.2.0.0.1.1668646533\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:ae7b5b6ca2dc8bc7845bff767b607c1d141340fedda45210bd049ca6dac20883",
+      "size": 2185,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 11.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.4.3.arm64_big_sur",
+        "sh.brew.bottle.digest": "08f362bb71849942d8dcbf6603172b06b0abf2188f34fcce45bd6a525cd050f0",
+        "sh.brew.bottle.size": "1180135",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.0.24-34-g66c6e5b\",\"changed_files\":[\"lib/pkgconfig/flac++.pc\",\"lib/pkgconfig/flac.pc\"],\"source_modified_time\":1687423868,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libogg\",\"version\":\"1.3.5\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 11.7\",\"cpu_family\":\"arm_firestorm_icestorm\",\"xcode\":\"13.2.1\",\"clt\":\"13.2.0.0.1.1638488800\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:c8332fa4c9741e6205fd998e0a5c4e4340b7c4bb0cbd87c58d31e3590430db52",
+      "size": 2152,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 11.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "1.4.3.big_sur",
+        "sh.brew.bottle.digest": "6fb65cf0ac1991a168c0be6116bb04ba56393f5af3947ab011b3eba17744c39c",
+        "sh.brew.bottle.size": "1211416",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.0.24-34-g66c6e5b\",\"changed_files\":[\"lib/pkgconfig/flac++.pc\",\"lib/pkgconfig/flac.pc\"],\"source_modified_time\":1687423868,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libogg\",\"version\":\"1.3.5\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 11.7\",\"cpu_family\":\"penryn\",\"xcode\":\"13.2.1\",\"clt\":\"13.2.0.0.1.1638488800\",\"preferred_perl\":\"5.30\"}}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2023-06-23",
+    "org.opencontainers.image.description": "Free lossless audio codec",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/flac",
+    "org.opencontainers.image.license": "BSD-3-Clause and GPL-2.0-or-later and ISC and LGPL-2.0-or-later and LGPL-2.1-or-later and Public Domain and (GPL-2.0-or-later or LGPL-2.1-or-later)",
+    "org.opencontainers.image.ref.name": "1.4.3",
+    "org.opencontainers.image.revision": "1cc864f4252c722e3cf897b373bb42e64a544ab4",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/1cc864f4252c722e3cf897b373bb42e64a544ab4/Formula/flac.rb",
+    "org.opencontainers.image.title": "flac",
+    "org.opencontainers.image.url": "https://xiph.org/flac/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "1.4.3"
+  }
+}
