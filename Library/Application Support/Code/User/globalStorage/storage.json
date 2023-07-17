@@ -2,7 +2,8 @@
     "userDataProfilesMigration": true,
     "profileAssociations": {
         "workspaces": {
-            "file:///Users/Einpunk%20Community/Documents/Brownie/brownie_gamex_vault/web3-auth": "__default__profile__"
+            "file:///Users/Einpunk%20Community/Documents/Brownie/brownie_gamex_vault/web3-auth": "__default__profile__",
+            "file:///Users/Einpunk%20Community/Documents/Brownie/brownie_gamex_vault/web3-auth/homepage": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -13,6 +14,9 @@
         "folders": [
             {
                 "folderUri": "file:///Users/Einpunk%20Community/Documents/Brownie/brownie_gamex_vault/web3-auth"
+            },
+            {
+                "folderUri": "file:///Users/Einpunk%20Community/Documents/Brownie/brownie_gamex_vault/web3-auth/homepage"
             }
         ],
         "emptyWindows": []
@@ -60,6 +64,16 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/Users/Einpunk Community/Documents/Brownie/brownie_gamex_vault/web3-auth/homepage",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/homepage"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -825,8 +839,7 @@
                     },
                     {
                         "id": "workbench.action.debug.configure",
-                        "label": "Open &&Configurations",
-                        "enabled": false
+                        "label": "Open &&Configurations"
                     },
                     {
                         "id": "debug.addConfiguration",
@@ -1626,6 +1639,29 @@
                 "height": 768
             }
         },
-        "openedWindows": []
+        "openedWindows": [
+            {
+                "folder": "file:///Users/Einpunk%20Community/Documents/Brownie/brownie_gamex_vault/web3-auth",
+                "backupPath": "/Users/Einpunk Community/Documents/Brownie/brownie_gamex_vault/web3-auth/Library/Application Support/Code/Backups/0643e197d382b79ff75c99a54b4a7014",
+                "uiState": {
+                    "mode": 1,
+                    "x": 207,
+                    "y": 66,
+                    "width": 1024,
+                    "height": 768
+                }
+            },
+            {
+                "folder": "file:///Users/Einpunk%20Community/Documents/Brownie/brownie_gamex_vault/web3-auth/homepage",
+                "backupPath": "/Users/Einpunk Community/Documents/Brownie/brownie_gamex_vault/web3-auth/Library/Application Support/Code/Backups/0c9be3f652908151944cdc17bf2adcde",
+                "uiState": {
+                    "mode": 1,
+                    "x": 238,
+                    "y": 70,
+                    "width": 1024,
+                    "height": 768
+                }
+            }
+        ]
     }
 }

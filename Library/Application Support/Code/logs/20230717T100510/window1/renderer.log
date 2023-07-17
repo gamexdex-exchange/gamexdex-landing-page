@@ -23,3 +23,38 @@
     at IpcMainImpl.emit (node:events:513:28)
     at EventEmitter.<anonymous> (node:electron/js2c/browser_init:2:80979)
     at EventEmitter.emit (node:events:513:28)
+2023-07-17 11:40:05.064 [error] Error: XHR failed
+    at y.onerror (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:77:1261)
+2023-07-17 11:40:05.069 [error] Error: XHR failed
+    at y.onerror (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:77:1261)
+2023-07-17 13:31:31.095 [error] Error: XHR failed
+    at y.onerror (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:77:1261)
+2023-07-17 13:31:31.097 [error] Error: XHR failed
+    at y.onerror (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:77:1261)
+2023-07-17 13:31:31.098 [error] Error: XHR failed
+    at y.onerror (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:77:1261)
+2023-07-17 13:33:35.428 [error] Download: net::ERR_CONNECTION_RESET
+    at $t.download (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:86:135269)
+    at async G.y (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:87:19783)
+    at async G.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:87:17877)
+2023-07-17 13:33:35.448 [error] net::ERR_CONNECTION_RESET: Download: net::ERR_CONNECTION_RESET
+    at $t.download (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:86:135269)
+    at async G.y (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:87:19783)
+    at async G.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:87:17877)
+2023-07-17 14:52:41.790 [error] Download: net::ERR_HTTP2_PING_FAILED
+    at $t.download (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:86:135269)
+    at async G.y (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:87:19783)
+    at async G.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:87:17877)
+2023-07-17 14:52:41.794 [error] net::ERR_HTTP2_PING_FAILED: Download: net::ERR_HTTP2_PING_FAILED
+    at $t.download (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:86:135269)
+    at async G.y (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:87:19783)
+    at async G.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:87:17877)
+2023-07-17 14:55:36.374 [error] Download: net::ERR_CONNECTION_RESET
+    at $t.download (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:86:135269)
+    at async G.y (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:87:19783)
+    at async G.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:87:17877)
+2023-07-17 14:55:36.377 [error] net::ERR_CONNECTION_RESET: Download: net::ERR_CONNECTION_RESET
+    at $t.download (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:86:135269)
+    at async G.y (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:87:19783)
+    at async G.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:87:17877)
+2023-07-17 15:21:20.377 [info] Creating lazy extension host: contains 1 new extension(s) (installed or enabled): Cloud-pipelines.pipeline-editor-vscode

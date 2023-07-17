@@ -1,0 +1,145 @@
+{
+	"name": "pipeline-editor-vscode",
+	"displayName": "Pipeline Editor",
+	"version": "0.1.20220911",
+	"description": "Cloud Pipelines Editor is a web app that allows the users to build and run Machine Learning pipelines using drag and drop without having to set up development environment.",
+	"keywords": [
+		"Data Science",
+		"Machine Learning",
+		"Pipelines",
+		"Cloud",
+		"Containers",
+		"Kubernetes",
+		"MLOps"
+	],
+	"bugs": "https://github.com/Cloud-Pipelines/pipeline-editor/issues",
+	"license": "Apache-2.0",
+	"author": {
+		"name": "Alexey Volkov",
+		"email": "alexey.volkov+oss@ark-kun.com",
+		"url": "http://ark-kun.com/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Cloud-Pipelines/pipeline-editor.git"
+	},
+	"icon": "build/logo512.png",
+	"publisher": "Cloud-pipelines",
+	"engines": {
+		"vscode": "^1.57.0"
+	},
+	"preview": true,
+	"categories": [
+		"Data Science",
+		"Machine Learning",
+		"Visualization",
+		"Other"
+	],
+	"activationEvents": [
+		"onCustomEditor:cloudPipelines.pipelineEditor",
+		"onCommand:cloud-pipeline-editor.newUntitledPipeline",
+		"onWebviewPanel:cloudPipelines.pipelineEditor"
+	],
+	"browser": "./dist/web/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "cloud-pipeline-editor.newUntitledPipeline",
+				"title": "New Cloud Pipeline",
+				"shortTitle": "Pipeline",
+				"category": "Create"
+			}
+		],
+		"menus": {
+			"file/newFile": [
+				{
+					"command": "cloud-pipeline-editor.newUntitledPipeline"
+				}
+			]
+		},
+		"customEditors": [
+			{
+				"viewType": "cloudPipelines.pipelineEditor",
+				"displayName": "Cloud Pipeline Editor",
+				"selector": [
+					{
+						"filenamePattern": "*.component.{yaml,yml,yaml.yml}"
+					},
+					{
+						"filenamePattern": "{*.,}component.{yaml,yml,yaml.yml}"
+					},
+					{
+						"filenamePattern": "{*.,}pipeline_component.{yaml,yml,yaml.yml}"
+					},
+					{
+						"filenamePattern": "cloud_pipeline.{yaml,yml,yaml.yml}"
+					},
+					{
+						"filenamePattern": "*.cloud_pipeline.{yaml,yml,yaml.yml}"
+					},
+					{
+						"filenamePattern": "*.cloud_pipeline"
+					}
+				]
+			}
+		],
+		"configuration": {
+			"title": "Cloud Pipelines",
+			"properties": {
+				"cloudPipelines.componentLibrary.libraryUrls": {
+					"type": "object",
+					"scope": "resource",
+					"default": {
+						"main": "https://cloud-pipelines.net/pipeline-editor/component_library.yaml"
+					},
+					"additionalProperties": {
+						"type": "string"
+					},
+					"description": "Component library file URLs"
+				}
+			}
+		}
+	},
+	"scripts": {
+		"build-react-app": "cd ./app/ && cross-env-shell PUBLIC_URL=./ BUILD_PATH=$INIT_CWD/build INLINE_RUNTIME_CHUNK=false npm run build",
+		"watch-react-app": "cd ./app/ && cross-env-shell PUBLIC_URL=./ BUILD_PATH=$INIT_CWD/build INLINE_RUNTIME_CHUNK=false npm run watch",
+		"test": "vscode-test-web --browserType=chromium --extensionDevelopmentPath=. --extensionTestsPath=dist/web/test/suite/index.js",
+		"pretest": "npm run compile-web",
+		"vscode:prepublish": "npm run package-web",
+		"compile-web": "webpack",
+		"watch-web-only": "webpack --watch",
+		"watch-web": "concurrently npm:watch-react-app npm:watch-web-only",
+		"package-web": "webpack --mode production --devtool hidden-source-map",
+		"prepackage-web": "npm run build-react-app",
+		"lint": "eslint src --ext ts",
+		"run-in-browser": "vscode-test-web --browserType=chromium --extensionDevelopmentPath=. ."
+	},
+	"devDependencies": {
+		"@types/mocha": "^9.1.0",
+		"@types/vscode": "^1.57.0",
+		"@types/webpack-env": "^1.16.3",
+		"@typescript-eslint/eslint-plugin": "^5.16.0",
+		"@typescript-eslint/parser": "^5.16.0",
+		"@vscode/test-web": "^0.0.24",
+		"assert": "^2.0.0",
+		"concurrently": "^7.1.0",
+		"cross-env": "^7.0.3",
+		"eslint": "^8.11.0",
+		"mocha": "^9.2.2",
+		"process": "^0.11.10",
+		"ts-loader": "^9.2.8",
+		"typescript": "^4.5.5",
+		"webpack": "^5.70.0",
+		"webpack-cli": "^4.9.2"
+	},
+	"__metadata": {
+		"id": "4b50a115-a4d5-4261-ba99-1fce8f036899",
+		"publisherId": "48f6f07a-990a-4d77-8e34-6b5240110c0c",
+		"publisherDisplayName": "Alexey Volkov",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1689631964192,
+		"preRelease": false
+	}
+}

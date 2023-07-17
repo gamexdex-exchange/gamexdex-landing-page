@@ -1,0 +1,8 @@
+.env
+.profile
+.lsshst
+.yarnrc
+/node_modules
+.bashrc
+.local
+/.cache

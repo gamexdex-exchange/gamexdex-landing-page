@@ -1,0 +1,5 @@
+.env
+.profile
+.lsshst
+.yarnrc
+/node_modules

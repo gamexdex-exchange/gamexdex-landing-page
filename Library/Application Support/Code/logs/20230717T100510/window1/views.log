@@ -10,3 +10,15 @@
 2023-07-17 10:05:13.005 [info] Added views:workbench.panel.repl.view in workbench.panel.repl
 2023-07-17 10:05:13.006 [info] Removed views:workbench.debug.breakPointsView,workbench.debug.callStackView,workbench.debug.watchExpressionsView,workbench.debug.variablesView from workbench.view.debug
 2023-07-17 10:05:13.006 [info] Added views:workbench.debug.welcome in workbench.view.debug
+2023-07-17 11:33:28.842 [info] Added views:workbench.views.extensions.installed,workbench.views.extensions.popular,extensions.recommendedList in workbench.view.extensions
+2023-07-17 11:33:28.846 [info] Removed views:workbench.views.extensions.popular from workbench.view.extensions
+2023-07-17 11:33:29.514 [info] Added views:workbench.views.extensions.popular in workbench.view.extensions
+2023-07-17 13:10:33.048 [info] Removed views:extensions.recommendedList,workbench.views.extensions.popular,workbench.views.extensions.installed from workbench.view.extensions
+2023-07-17 13:10:33.072 [info] Added views:workbench.views.extensions.marketplace in workbench.view.extensions
+2023-07-17 13:47:29.417 [info] Removed views:workbench.views.extensions.marketplace from workbench.view.extensions
+2023-07-17 13:47:29.449 [info] Added views:workbench.views.extensions.installed,workbench.views.extensions.popular,extensions.recommendedList in workbench.view.extensions
+2023-07-17 13:47:31.350 [info] Removed views:extensions.recommendedList,workbench.views.extensions.popular,workbench.views.extensions.installed from workbench.view.extensions
+2023-07-17 13:47:31.366 [info] Added views:workbench.views.extensions.marketplace in workbench.view.extensions
+2023-07-17 14:52:46.510 [info] Added views:dockerContainers,dockerImages,dockerRegistries,dockerNetworks,dockerVolumes,vscode-docker.views.dockerContexts,vscode-docker.views.help in workbench.view.extension.dockerView
+2023-07-17 15:22:04.538 [info] Removed views:workbench.debug.welcome from workbench.view.debug
+2023-07-17 15:22:04.541 [info] Added views:workbench.debug.variablesView,workbench.debug.watchExpressionsView,workbench.debug.callStackView,workbench.debug.breakPointsView in workbench.view.debug

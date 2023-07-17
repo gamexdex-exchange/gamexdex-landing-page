@@ -33,3 +33,42 @@
 32 timing arborist:ctor Completed in 0ms
 33 silly logfile done cleaning log files
 34 timing idealTree:init Completed in 13ms
+35 http fetch GET 200 https://registry.npmjs.org/types-registry 69488ms (cache miss)
+36 timing idealTree:userRequests Completed in 69503ms
+37 silly idealTree buildDeps
+38 silly fetch manifest types-registry@0.1.652
+39 silly placeDep ROOT types-registry@0.1.652 OK for:  want: 0.1.652
+40 timing idealTree:#root Completed in 8ms
+41 timing idealTree:node_modules/types-registry Completed in 0ms
+42 timing idealTree:buildDeps Completed in 9ms
+43 timing idealTree:fixDepFlags Completed in 0ms
+44 timing idealTree Completed in 69526ms
+45 timing reify:loadTrees Completed in 69529ms
+46 timing reify:diffTrees Completed in 1ms
+47 silly reify moves {}
+48 timing reify:retireShallow Completed in 1ms
+49 timing reify:createSparse Completed in 1ms
+50 timing reify:loadBundles Completed in 0ms
+51 silly audit bulk request { 'types-registry': [ '0.1.652' ] }
+52 silly tarball no local data for types-registry@https://registry.npmjs.org/types-registry/-/types-registry-0.1.652.tgz. Extracting by manifest.
+53 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 552ms
+54 timing auditReport:getReport Completed in 553ms
+55 silly audit report {}
+56 timing auditReport:init Completed in 0ms
+57 timing reify:audit Completed in 553ms
+58 http fetch GET 200 https://registry.npmjs.org/types-registry/-/types-registry-0.1.652.tgz 64313ms (cache miss)
+59 timing reifyNode:node_modules/types-registry Completed in 64321ms
+60 timing reify:unpack Completed in 64321ms
+61 timing reify:unretire Completed in 0ms
+62 timing build:queue Completed in 0ms
+63 timing build:deps Completed in 1ms
+64 timing build Completed in 1ms
+65 timing reify:build Completed in 2ms
+66 timing reify:trash Completed in 0ms
+67 timing reify:save Completed in 7ms
+68 timing reify Completed in 133880ms
+69 silly ADD node_modules/types-registry
+70 timing command:install Completed in 133885ms
+71 verbose exit 0
+72 timing npm Completed in 134222ms
+73 info ok

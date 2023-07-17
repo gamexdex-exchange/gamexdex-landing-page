@@ -1,0 +1,4 @@
+[submodule "app/src/pipeline-editor"]
+	path = app/src/pipeline-editor
+	url = https://github.com/Cloud-Pipelines/pipeline-editor.git
+	branch = vscode-extension

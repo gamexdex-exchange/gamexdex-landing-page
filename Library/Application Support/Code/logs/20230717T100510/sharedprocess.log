@@ -1,2 +1,92 @@
 2023-07-17 10:16:26.681 [error] [uncaught exception in sharedProcess]: A system error occurred (read ETIMEDOUT): Error: read ETIMEDOUT
     at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+2023-07-17 13:30:31.679 [info] Getting Manifest... ritwickdey.liveserver
+2023-07-17 13:30:31.694 [info] Installing extension: ritwickdey.liveserver
+2023-07-17 13:33:35.374 [error] Error while installing the extension: ritwickdey.liveserver
+2023-07-17 13:33:35.383 [error] Failed to install extension. ritwickdey.liveserver
+2023-07-17 13:33:35.383 [error] Download: net::ERR_CONNECTION_RESET
+    at $t.download (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:86:135269)
+    at async G.y (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:87:19783)
+    at async G.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:87:17877)
+2023-07-17 13:33:35.384 [error] [uncaught exception in sharedProcess]: net::ERR_CONNECTION_RESET: Download: net::ERR_CONNECTION_RESET
+    at $t.download (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:86:135269)
+    at async G.y (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:87:19783)
+    at async G.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:87:17877)
+2023-07-17 13:47:38.030 [info] Getting Manifest... ritwickdey.liveserver
+2023-07-17 13:47:38.036 [info] Installing extension: ritwickdey.liveserver
+2023-07-17 13:47:40.803 [info] Getting Manifest... ms-vscode.live-server
+2023-07-17 13:47:40.818 [info] Installing extension: ms-vscode.live-server
+2023-07-17 13:47:56.595 [info] Extension signature is verified: ms-vscode.live-server
+2023-07-17 13:47:56.694 [info] Extracted extension to /Users/Einpunk Community/Documents/Brownie/brownie_gamex_vault/web3-auth/.vscode/extensions/.64eda133-ad6e-4e4c-afd0-6c0bd3dad654: ms-vscode.live-server
+2023-07-17 13:47:56.728 [info] Renamed to /Users/Einpunk Community/Documents/Brownie/brownie_gamex_vault/web3-auth/.vscode/extensions/ms-vscode.live-server-0.4.9
+2023-07-17 13:47:56.734 [info] Extracting extension completed. ms-vscode.live-server
+2023-07-17 13:47:56.771 [info] Extension installed successfully: ms-vscode.live-server
+2023-07-17 13:48:08.348 [info] Extension signature is verified: ritwickdey.liveserver
+2023-07-17 13:48:14.230 [info] Extracted extension to /Users/Einpunk Community/Documents/Brownie/brownie_gamex_vault/web3-auth/.vscode/extensions/.d82e3aa0-cab5-432d-aa23-bcea3944ae61: ritwickdey.liveserver
+2023-07-17 13:48:14.259 [info] Renamed to /Users/Einpunk Community/Documents/Brownie/brownie_gamex_vault/web3-auth/.vscode/extensions/ritwickdey.liveserver-5.7.9
+2023-07-17 13:48:14.269 [info] Extracting extension completed. ritwickdey.liveserver
+2023-07-17 13:48:14.300 [info] Extension installed successfully: ritwickdey.liveserver
+2023-07-17 14:46:04.030 [info] Getting Manifest... ms-azuretools.vscode-docker
+2023-07-17 14:46:04.058 [info] Installing extension: ms-azuretools.vscode-docker
+2023-07-17 14:47:00.648 [info] Getting Manifest... george3447.docker-run
+2023-07-17 14:47:00.658 [info] Installing extension: george3447.docker-run
+2023-07-17 14:47:09.540 [info] Getting Manifest... ms-vscode-remote.remote-containers
+2023-07-17 14:47:09.553 [info] Installing extension: ms-vscode-remote.remote-containers
+2023-07-17 14:52:41.712 [error] Error while installing the extension: ms-vscode-remote.remote-containers
+2023-07-17 14:52:41.725 [error] Failed to install extension. ms-vscode-remote.remote-containers
+2023-07-17 14:52:41.725 [error] Download: net::ERR_HTTP2_PING_FAILED
+    at $t.download (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:86:135269)
+    at async G.y (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:87:19783)
+    at async G.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:87:17877)
+2023-07-17 14:52:41.725 [error] [uncaught exception in sharedProcess]: net::ERR_HTTP2_PING_FAILED: Download: net::ERR_HTTP2_PING_FAILED
+    at $t.download (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:86:135269)
+    at async G.y (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:87:19783)
+    at async G.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:87:17877)
+2023-07-17 14:52:45.736 [info] Extension signature is verified: ms-azuretools.vscode-docker
+2023-07-17 14:52:45.934 [info] Extracted extension to /Users/Einpunk Community/Documents/Brownie/brownie_gamex_vault/web3-auth/.vscode/extensions/.46acad36-3347-4ed3-98df-742aab4ebb71: ms-azuretools.vscode-docker
+2023-07-17 14:52:45.980 [info] Renamed to /Users/Einpunk Community/Documents/Brownie/brownie_gamex_vault/web3-auth/.vscode/extensions/ms-azuretools.vscode-docker-1.26.0
+2023-07-17 14:52:45.991 [info] Extracting extension completed. ms-azuretools.vscode-docker
+2023-07-17 14:52:46.041 [info] Extension installed successfully: ms-azuretools.vscode-docker
+2023-07-17 14:55:36.349 [error] Error while installing the extension: george3447.docker-run
+2023-07-17 14:55:36.352 [error] Failed to install extension. george3447.docker-run
+2023-07-17 14:55:36.352 [error] Download: net::ERR_CONNECTION_RESET
+    at $t.download (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:86:135269)
+    at async G.y (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:87:19783)
+    at async G.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:87:17877)
+2023-07-17 14:55:36.353 [error] [uncaught exception in sharedProcess]: net::ERR_CONNECTION_RESET: Download: net::ERR_CONNECTION_RESET
+    at $t.download (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:86:135269)
+    at async G.y (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:87:19783)
+    at async G.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:87:17877)
+2023-07-17 15:12:14.063 [info] Getting Manifest... ms-vscode.azure-account
+2023-07-17 15:12:14.075 [info] Installing extension: ms-vscode.azure-account
+2023-07-17 15:12:25.104 [info] Getting Manifest... ms-vscode-remote.remote-containers
+2023-07-17 15:12:25.110 [info] Installing extension: ms-vscode-remote.remote-containers
+2023-07-17 15:12:27.005 [info] Getting Manifest... ms-vscode-remote.vscode-remote-extensionpack
+2023-07-17 15:12:27.011 [info] Installing extension: ms-vscode-remote.vscode-remote-extensionpack
+2023-07-17 15:12:41.585 [info] Getting Manifest... googlecloudtools.cloudcode
+2023-07-17 15:12:41.601 [info] Installing extension: googlecloudtools.cloudcode
+2023-07-17 15:12:42.092 [info] Getting Manifest... mindaro.mindaro
+2023-07-17 15:12:42.114 [info] Installing extension: mindaro.mindaro
+2023-07-17 15:12:43.061 [info] Getting Manifest... skyramp.mocker-vscode
+2023-07-17 15:12:43.076 [info] Installing extension: skyramp.mocker-vscode
+2023-07-17 15:12:43.229 [info] Getting Manifest... okteto.remote-kubernetes
+2023-07-17 15:12:43.261 [info] Installing extension: okteto.remote-kubernetes
+2023-07-17 15:12:43.482 [info] Getting Manifest... cloud-pipelines.pipeline-editor-vscode
+2023-07-17 15:12:43.517 [info] Installing extension: cloud-pipelines.pipeline-editor-vscode
+2023-07-17 15:13:05.529 [info] Getting Manifest... ms-vscode-remote.remote-wsl
+2023-07-17 15:13:05.741 [info] Getting Manifest... ms-kubernetes-tools.vscode-kubernetes-tools
+2023-07-17 15:19:55.475 [info] Getting Manifest... ms-vscode-remote.remote-containers
+2023-07-17 15:19:55.483 [info] Getting Manifest... ms-vscode-remote.remote-ssh
+2023-07-17 15:20:02.305 [info] Getting Manifest... redhat.vscode-yaml
+2023-07-17 15:21:11.523 [info] Getting Manifest... mindaro-dev.file-downloader
+2023-07-17 15:21:13.052 [info] Getting Manifest... ms-vscode-remote.remote-ssh-edit
+2023-07-17 15:21:20.085 [info] Extension signature is verified: cloud-pipelines.pipeline-editor-vscode
+2023-07-17 15:21:20.160 [info] Extracted extension to /Users/Einpunk Community/Documents/Brownie/brownie_gamex_vault/web3-auth/.vscode/extensions/.dba9b033-e3c3-47cd-b90d-b340b3de378f: cloud-pipelines.pipeline-editor-vscode
+2023-07-17 15:21:20.186 [info] Renamed to /Users/Einpunk Community/Documents/Brownie/brownie_gamex_vault/web3-auth/.vscode/extensions/cloud-pipelines.pipeline-editor-vscode-0.1.20220911
+2023-07-17 15:21:20.190 [info] Extracting extension completed. cloud-pipelines.pipeline-editor-vscode
+2023-07-17 15:21:20.236 [info] Extension installed successfully: cloud-pipelines.pipeline-editor-vscode
+2023-07-17 15:22:39.735 [info] Extension signature is verified: ms-vscode.azure-account
+2023-07-17 15:22:40.523 [info] Extracted extension to /Users/Einpunk Community/Documents/Brownie/brownie_gamex_vault/web3-auth/.vscode/extensions/.98adb000-d41c-4ea0-9638-8e1a2cfceb61: ms-vscode.azure-account
+2023-07-17 15:22:40.558 [info] Renamed to /Users/Einpunk Community/Documents/Brownie/brownie_gamex_vault/web3-auth/.vscode/extensions/ms-vscode.azure-account-0.11.5
+2023-07-17 15:22:40.562 [info] Extracting extension completed. ms-vscode.azure-account
+2023-07-17 15:22:40.617 [info] Extension installed successfully: ms-vscode.azure-account

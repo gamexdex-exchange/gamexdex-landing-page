@@ -1,0 +1,17 @@
+2023-07-17 14:18:05.083 [info] Added views:workbench.panel.markers.view in workbench.panel.markers
+2023-07-17 14:18:05.083 [info] Added views:workbench.panel.output in workbench.panel.output
+2023-07-17 14:18:05.083 [info] Added views:terminal in terminal
+2023-07-17 14:18:05.083 [info] Added views:outline in workbench.view.explorer
+2023-07-17 14:18:05.083 [info] Added views:workbench.scm in workbench.view.scm
+2023-07-17 14:18:05.083 [info] Added views:workbench.view.search in workbench.view.search
+2023-07-17 14:18:05.083 [info] Added views:timeline in workbench.view.explorer
+2023-07-17 14:18:05.083 [info] Added views:workbench.explorer.fileView in workbench.view.explorer
+2023-07-17 14:18:05.522 [info] Added views:workbench.debug.variablesView,workbench.debug.watchExpressionsView,workbench.debug.callStackView,workbench.debug.breakPointsView in workbench.view.debug
+2023-07-17 14:18:05.932 [info] Added views:workbench.panel.repl.view in workbench.panel.repl
+2023-07-17 14:18:05.934 [info] Removed views:workbench.debug.breakPointsView,workbench.debug.callStackView,workbench.debug.watchExpressionsView,workbench.debug.variablesView from workbench.view.debug
+2023-07-17 14:18:05.935 [info] Added views:workbench.debug.welcome in workbench.view.debug
+2023-07-17 14:52:46.273 [info] Added views:dockerContainers,dockerImages,dockerRegistries,dockerNetworks,dockerVolumes,vscode-docker.views.dockerContexts,vscode-docker.views.help in workbench.view.extension.dockerView
+2023-07-17 15:11:01.604 [info] Added views:workbench.views.extensions.installed,workbench.views.extensions.popular,extensions.recommendedList in workbench.view.extensions
+2023-07-17 15:11:01.611 [info] Removed views:workbench.views.extensions.popular from workbench.view.extensions
+2023-07-17 15:11:06.860 [info] Removed views:extensions.recommendedList,workbench.views.extensions.installed from workbench.view.extensions
+2023-07-17 15:11:06.884 [info] Added views:workbench.views.extensions.marketplace in workbench.view.extensions

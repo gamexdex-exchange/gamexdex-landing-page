@@ -1,0 +1,20 @@
+{
+  "name": "gamex-exchange",
+  "version": "1.0.0",
+  "description": "- 👋 Hi, I’m @gamexdex-exchange - 👀 I’m interested in Web3 & Blockchain Development... - 🌱 I’m currently learning More Solidity... - 💞️ I’m currently collaborating with @PatrickAlphaC... - 📫 How to reach me [GAMEX](https://github.com/gamexdex-exchange)...",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/gamexdex/gamexdex.git",
+  "author": "Gamex DEX",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gamexdex/gamexdex/issues"
+  },
+  "homepage": "",
+  "dependencies": {
+    "apexcharts": "^3.41.0",
+    "http-server": "^14.1.1"
+  }
+}

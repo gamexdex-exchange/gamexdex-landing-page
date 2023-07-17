@@ -1,3 +1,6 @@
 [submodule "nvm-ssh/.nvm"]
 	path = nvm-ssh/.nvm
 	url = https://github.com/gamexdex-exchange/nvm.git
+[submodule "homepage"]
+	path = homepage
+	url = https://github.com/https-github-com-gamex-dex/GAMEX.git

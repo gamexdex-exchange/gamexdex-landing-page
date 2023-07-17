@@ -1,0 +1,18 @@
+2023-07-17 11:40:05.062 [error] browser #15: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST XHR failed
+2023-07-17 11:40:05.067 [error] browser #16: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST XHR failed
+2023-07-17 12:06:02.554 [error] electron #26: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_NETWORK_CHANGED
+2023-07-17 13:31:31.094 [error] browser #25: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST XHR failed
+2023-07-17 13:31:31.097 [error] browser #27: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST XHR failed
+2023-07-17 13:31:31.097 [error] browser #26: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST XHR failed
+2023-07-17 13:47:31.700 [error] browser #31: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2023-07-17 13:47:31.960 [error] browser #32: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2023-07-17 13:58:36.477 [error] browser #44: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST XHR failed
+2023-07-17 14:18:17.913 [error] electron #60: https://update.code.visualstudio.com/api/update/darwin-universal/stable/660393deaaa6d1996740ff4880f1bad43768c814 - error undefined net::ERR_SOCKET_NOT_CONNECTED
+2023-07-17 15:11:40.283 [error] browser #30: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2023-07-17 15:11:44.859 [error] browser #23: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST XHR failed
+2023-07-17 15:11:44.862 [error] browser #18: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST XHR failed
+2023-07-17 15:11:51.528 [error] browser #31: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2023-07-17 15:11:52.151 [error] browser #21: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST XHR failed
+2023-07-17 15:11:52.181 [error] browser #20: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST XHR failed
+2023-07-17 15:11:58.568 [error] browser #22: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST XHR failed
+2023-07-17 15:12:02.461 [error] browser #25: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST XHR failed

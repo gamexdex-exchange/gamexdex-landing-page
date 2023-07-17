@@ -1,0 +1,13 @@
+# /bin/bash
+
+SHELL=/bin/bash 
+SESSION_MANAGER=/Users/Einpunk\ Community/Documents/Brownie/brownie_gamex_vault/web3-auth/homepage/.ssh/id_gamexdex.pub 
+WINDOWID=33750 
+COLORTERM=truecolor 
+XDG_CONFIG_DIRS=/Users/Einpunk\ Community/Documents/Brownie/brownie_gamex_vault/web3-auth/homepage
+LESS=-XR 
+XDG_SESSION_PATH=/Users/Einpunk\ Community/Documents/Brownie/brownie_gamex_vault/web3-auth/homepage
+HISTCONTROL=:ignorespace:ignoredups:ignorespace:ignoredups 
+PKG_CONFIG_PATH=/Users/Einpunk\ Community/Documents/Brownie/brownie_gamex_vault/web3-auth/homepage/.ssh/config
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
