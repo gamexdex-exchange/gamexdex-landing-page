@@ -1,0 +1,5 @@
+2023-07-17 10:05:19.627 [info] [perf] Render performance baseline is 37ms
+2023-07-17 10:18:27.567 [error] file:///Users/Einpunk%20Community/Documents/Brownie/brownie_gamex_vault/web3-auth/.nvm does not exist and can not be deleted: Error: file:///Users/Einpunk%20Community/Documents/Brownie/brownie_gamex_vault/web3-auth/.nvm does not exist and can not be deleted
+    at d.perform (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2312:18541)
+    at async c.a (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2312:19523)
+    at async c.undo (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2312:19420)

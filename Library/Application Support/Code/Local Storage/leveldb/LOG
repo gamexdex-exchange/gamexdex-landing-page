@@ -1,2 +1,3 @@
-2023/07/12-12:33:40.199 6c03 Creating DB /Users/Einpunk Community/Documents/Brownie/Library/Application Support/Code/Local Storage/leveldb since it was missing.
-2023/07/12-12:33:40.267 6c03 Reusing MANIFEST /Users/Einpunk Community/Documents/Brownie/Library/Application Support/Code/Local Storage/leveldb/MANIFEST-000001
+2023/07/17-10:05:10.774 6803 Reusing MANIFEST /Users/Einpunk Community/Documents/Brownie/brownie_gamex_vault/web3-auth/Library/Application Support/Code/Local Storage/leveldb/MANIFEST-000001
+2023/07/17-10:05:10.775 6803 Recovering log #3
+2023/07/17-10:05:10.775 6803 Reusing old log /Users/Einpunk Community/Documents/Brownie/brownie_gamex_vault/web3-auth/Library/Application Support/Code/Local Storage/leveldb/000003.log 

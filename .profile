@@ -11,3 +11,5 @@ then
     done
   fi
 fi
+export NVM_DIR="/Users/Einpunk Community/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

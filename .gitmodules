@@ -1,0 +1,3 @@
+[submodule "nvm-ssh/.nvm"]
+	path = nvm-ssh/.nvm
+	url = https://github.com/gamexdex-exchange/nvm.git

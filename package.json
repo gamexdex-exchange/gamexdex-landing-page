@@ -6,14 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gamexdex-exchange/gamexdex-exchange.git"
-  },
+  "repository": "git+https://github.com/gamexdex-exchange/gamexdex-exchange.git",
   "author": "Gamex DEX",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gamexdex-exchange/gamexdex-exchange/issues"
   },
-  "homepage": "https://github.com/gamexdex-exchange/gamexdex-exchange#readme"
+  "homepage": "https://github.com/gamexdex-exchange/gamexdex-exchange#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
 }
