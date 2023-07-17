@@ -5,3 +5,23 @@
 2023-07-17 10:44:13.769 [info] update#setState idle
 2023-07-17 11:05:41.150 [info] update#setState checking for updates
 2023-07-17 11:05:45.266 [info] update#setState downloading
+2023-07-17 11:31:02.277 [error] Error: Error while encrypting the text provided to safeStorage.encryptString. Encryption is not available.
+    at e.$I2b.encrypt (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/electron-main/main.js:42:11086)
+    at Object.call (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/electron-main/main.js:25:4844)
+    at R.s (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/electron-main/main.js:23:5128)
+    at R.q (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/electron-main/main.js:23:4644)
+    at o.value (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/electron-main/main.js:23:4051)
+    at v.w (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/electron-main/main.js:18:1906)
+    at v.x (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/electron-main/main.js:18:1976)
+    at v.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/electron-main/main.js:18:2192)
+    at o.value (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/electron-main/main.js:16:38645)
+    at v.w (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/electron-main/main.js:18:1906)
+    at v.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/electron-main/main.js:18:2123)
+    at o.value (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/electron-main/main.js:16:38839)
+    at v.w (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/electron-main/main.js:18:1906)
+    at v.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/electron-main/main.js:18:2123)
+    at se (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/electron-main/main.js:16:40982)
+    at IpcMainImpl.f (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/code/electron-main/main.js:19:96301)
+    at IpcMainImpl.emit (node:events:513:28)
+    at EventEmitter.<anonymous> (node:electron/js2c/browser_init:2:80979)
+    at EventEmitter.emit (node:events:513:28)
